@@ -1,0 +1,202 @@
+
+
+
+	html{
+	    font-size: 62.5%;
+	}
+
+	body{
+	    font-family: sans-serif;
+	    margin: 0;
+	}
+
+	h1,h2,h3,p,ul,ol,a,th,figure{
+        text-decoration: none;
+	    margin: 0;
+	    list-style: none;
+	    padding: 0;
+	    font-weight: 400;
+	}
+
+
+    *{
+            box-sizing: border-box;
+    }
+
+    
+main fieldset{
+	
+	position: relative;
+	border: none;
+}
+main fieldset img{
+	padding-left: 2rem;
+	top: 1.1rem;
+	left:1.2rem;
+	width:1.2rem;
+	height:1.2rem;
+	position: absolute;
+
+}
+header nav ul li:last-child img{
+	width: 3rem;
+	height: 3rem;	
+	border-radius: 100%;
+
+}
+
+header nav ul li:nth-child(3) img{
+	width: 2rem;
+	height: 2rem;	
+border-radius: 100%;}
+
+main>img{
+	margin: 2rem auto;
+	display: block;
+	width: 20rem;
+}
+
+main{
+	max-width: 38rem;
+	height: 20rem;
+	margin: 14rem auto ;
+}
+
+main input[type=text]{
+	padding-left:30px;
+	padding: 1rem;
+	height: 2.7rem;
+	border-radius: 1rem;
+	border: .2rem solid rgba(128, 128, 128, 0.075);
+	display: block;
+	margin: 0 auto;
+	min-width: 100%;
+}
+
+
+
+header nav{
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+header nav ul{
+	align-items: center;
+	width: 20rem;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+header nav ul li{
+	
+	margin:1.2rem;
+	font-size: .9rem;
+
+}
+header nav ul li a{
+	color: black;
+
+}
+footer hr{
+	height: 1px;
+	background-color: rgba(81, 84, 87, 0.288);
+
+	border: none;
+
+}
+
+
+
+.inputs{
+	margin: 2rem auto;
+	width: 50%;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+
+}
+main section input[type=submit]{
+	border: none ;
+	font-size: 1rem;
+	background-color: rgb(248, 249, 250);
+	padding: .6rem;
+
+}
+
+
+main ul li input[type=submit]:hover{
+	border: .1rem solid rgba(134, 136, 138, 0.253);
+	
+	
+
+}
+main ul li a{
+	color: black;
+}
+
+footer{
+	width: 100%;
+background-color:rgb(242,242,242)
+}
+
+footer *{
+	color: rgba(81,84,87);
+}
+
+
+footer p:nth-child(1){
+	padding:1rem;
+}
+footer p:nth-child(2){
+
+	text-align: center;
+}
+
+
+main p{
+	color: rgba(81,84,87);
+	font-size: .9rem;
+
+	text-align: center;
+}
+
+main p a{
+	color: blue;
+}
+
+
+footer p{
+	color: rgba(81, 84, 87, 0.747);
+
+}
+section ul{
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(8,1fr);
+}
+
+footer section ul .ab{
+		grid-column: 1/10;
+		grid-row: 1;
+		padding: 1rem;
+		text-align: center;
+}
+section ul li{
+	color: rgba(81,84,87);
+
+}
+/*
+
+footer section ul{
+	margin: 0 auto;
+
+
+	display: grid;
+	grid-template-columns: repeat(9,1fr);
+
+}
+
+footer section ul li{
+	color: rgba(81, 84, 87, 0.747);
+	font-size: .9rem;
+	text-align: center;
+}*/
